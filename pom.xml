@@ -197,6 +197,18 @@
 
 
 	</dependencies>
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url>http://172.31.38.70:8187/motionio/repository/tesla-webapp-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Snapshot Nexus Repository</name>
+	      <url>http://172.31.38.70.4:8187/motionio/repository/tesla-webapp-snapshot/</url>
+	    </snapshotRepository>
 	<build>
 		<finalName>Spring3Struts2HibernateIntegration</finalName>
 		<plugins>
